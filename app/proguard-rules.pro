@@ -42,4 +42,6 @@
 -keep class * implements com.google.gson.JsonSerializer
 -keep class * implements com.google.gson.JsonDeserializer
 
+
+-keep class com.scoolnetwork.gsonjava.** { *; }
 ##---------------End: proguard configuration for Gson  ----------
